@@ -1940,7 +1940,7 @@ static JNINativeMethod gMethods[] =
     {"doEnableDtaMode", "()V",
             (void*) nfcManager_doEnableDtaMode},
     {"doDisableDtaMode", "()V",
-            (void*) nfcManager_doDisableDtaMode}
+            (void*) nfcManager_doDisableDtaMode},
 
     {"getIsoDepMaxTransceiveLength", "()I",
             (void*)nfcManager_getIsoDepMaxTransceiveLength}
